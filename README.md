@@ -19,3 +19,6 @@ Technologies used:
 - PostgreSQL 16
 - Ubuntu 22.04(WSL2)
 - Google Looker
+
+*Requirements*
+Please note that this appliation was written in WSL2 (Ubuntu Linux), therefore the SQL queries are intended to run exclusively on Linux or macOS. 
