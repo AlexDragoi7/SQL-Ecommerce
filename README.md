@@ -1,4 +1,4 @@
-#E-Commerce Database with PostgreSQL
+# E-Commerce Database with PostgreSQL
 
 The project is a SQL exercise, aimed to construct a database with electronic products, for sale purposes.
 
