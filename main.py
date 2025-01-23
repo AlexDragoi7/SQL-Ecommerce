@@ -1,6 +1,3 @@
-from db_connection import connection
-from db_connection import cursor
-from queries import select_all
 from database_functions.create_table import create_customers
 from database_functions.create_table import create_orders
 from database_functions.create_table import create_products

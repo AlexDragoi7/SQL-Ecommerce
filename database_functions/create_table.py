@@ -26,7 +26,7 @@ def create_products(table):
     print(f"Table {table} was created")
 
 def create_order_items(table):
-    new_table = f'''CREATE TABLE IF NOT EXISTS {table} (order_item_id serial primary key, order_id INT, product_id INT, price DECIMAL,
+    new_table = f'''CREATE TABLE IF NOT EXISTS {table} (order_item_id serial primary key, order_id INT, product_id INT, quantity INT, price DECIMAL,
                     CONSTRAINT fk_order_id
                         FOREIGN KEY(order_id)
                             REFERENCES Orders(order_id),
