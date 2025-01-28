@@ -16,4 +16,6 @@ query_sales_trend_analysis = 'sales_trend'
 query_sold_per_category = 'sales_by_category'
 query_avg_order_per_customer = 'average_order_value'
 
-os.system(f'sudo -u {db_user} psql -d {db_name} < {query_avg_order_per_customer}.sql')   
+
+#CHANGE THE VARIABLE NAME AFTER '<' SIGN TO CHANGE THE QUERY
+os.system(f'sudo -u {db_user} psql -d {db_name} < {query_top_prods_by_sale}.sql')   

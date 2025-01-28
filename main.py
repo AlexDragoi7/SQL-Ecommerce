@@ -13,4 +13,3 @@ from database_functions.delete_table import delete_table
 # create_orders('Orders') #--> enable to create Orders table
 # create_products('Products') #--> enable to create Products table
 # create_order_items('Order_Items') #--> enable to create Order_Items table
-# select_all('order_items') #--> SELECT * FROM a specific table
